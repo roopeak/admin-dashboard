@@ -23,6 +23,7 @@ html, body {
     height: 100vh;
     width: 20vw;
     background-color: #1992d4;
+    color: white;
 }
 
 .sidenav > h1 {
@@ -60,12 +61,19 @@ a:active {
     height: 36px;
 }
 
+.header {
+    box-shadow: 0 4px 20px -2px gray;
+
+}
+
 .topnav {
     width: 80vw;
     display: flex;
     flex-direction: row;
     align-items: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    /* padding-bottom: 20px; */
+    padding-top: 10px;
 }
 
 .search-icon {
@@ -74,7 +82,11 @@ a:active {
 
 .topnav > input {
     width: 500px;
-    margin-left: 30px;
+    height: 30px;
+    margin-left: 20px;
+    border-radius: 30px;
+    border: none;
+    background-color: #e2e8f0;
 }
 
 .ring-icon {
@@ -89,4 +101,53 @@ a:active {
     margin-left: 20px;
 }
 
+.topnav-bottom  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
+    /* border: 1px solid red; */
+}
+
+.user-div {
+    display: flex;
+    align-items: center;
+}
+
+.topnav-bottom > div {
+    display: flex;
+    flex-direction: row;
+}
+
+.greetings-div p {
+    margin-left: 30px;
+}
+
+.greeting {
+    font-size: smaller;
+    margin-bottom: -10px;
+}
+
+.topnav-bottom img {
+    width: 52px;
+    height: 52px;
+    margin-left: 50px;
+}
+
+.buttons-div {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.buttons-div button {
+    margin: 10px;
+    height: 35px;
+    width: 80px;
+    background-color: #1992d4;
+    color: white;
+    border-radius: 30px;
+    border: none;
+}
