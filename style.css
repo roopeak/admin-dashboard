@@ -151,3 +151,7 @@ a:active {
     border-radius: 30px;
     border: none;
 }
+
+.clickable:hover {
+    cursor: pointer;
+}
