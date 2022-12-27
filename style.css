@@ -208,6 +208,19 @@ a:active {
     color: grey;
 }
 
+.icon-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 10px;
+    gap: 10px;
+}
+
+.icon-container img {
+    width: 20x;
+    height: 20px;
+}
+
 .announcements-trending-container {
     display: grid;
     grid-template-columns: 280px;
