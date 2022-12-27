@@ -72,8 +72,6 @@ a:active {
     display: flex;
     flex-direction: row;
     align-items: center;
-    /* border: 1px solid red; */
-    /* padding-bottom: 20px; */
     padding-top: 10px;
 }
 
@@ -88,6 +86,8 @@ a:active {
     border-radius: 30px;
     border: none;
     background-color: #e2e8f0;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .ring-icon {
@@ -108,8 +108,6 @@ a:active {
     justify-content: space-between;
     padding-top: 10px;
     padding-bottom: 10px;
-
-    /* border: 1px solid red; */
 }
 
 .user-div {
@@ -180,11 +178,7 @@ a:active {
     display: grid;
     grid-template-columns: 600px 200px;
     grid-template-rows: 100px 100px 100px;
-    height: 1200px;
-    overflow: hidden;
-    /* margin-top: 150px; */
-
-    /* border: 1px solid red; */
+    height: 100vh;
 }
 
 .project-container {
@@ -203,8 +197,6 @@ a:active {
     padding-top: 30px;
     padding-left: 20px;
     padding-right: 10px;
-
-    /* border: 1px solid red; */
 }
 
 .project-headers {
@@ -218,8 +210,8 @@ a:active {
 
 .announcements-trending-container {
     display: grid;
-    grid-template-columns: 250px;
-    grid-template-rows: 310px 310px;
+    grid-template-columns: 280px;
+    grid-template-rows: 300px 50px 300px;
     grid-gap: 20px;
     margin-left: 90px;
     padding-top: 20px;
@@ -227,6 +219,70 @@ a:active {
 
 .announcements-trending-container > div {
     box-shadow: 0 2px 5px -1px gray;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
 
-    /* border: 1px solid red; */
+.announcements-header {
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.announcement-content {
+    font-size: 0.7rem;
+    color: gray;
+    margin-top: -12px;
+}
+
+.announcements1 {
+    border-bottom: 1px solid grey;
+}
+
+.announcements2 {
+    border-bottom: 1px solid gray;
+}
+
+.trendings {
+    font-weight: bold;
+}
+
+.trendings-container {
+    margin-top: -20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.trendings-container img {
+    width: 40px;
+    height: 40px;
+}
+
+.trendings-container > .item1,
+.trendings-container > .item2,
+.trendings-container > .item3,
+.trendings-container > .item4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.trendings-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.user-header {
+    margin-bottom: -13px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.user-content {
+    font-size: 0.8rem;
+    color: gray;
 }
