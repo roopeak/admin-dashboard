@@ -1,3 +1,24 @@
-h1 {
-  color: red;
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.sidebar {
+	height: 100%;
+	width: 250px;
+	position: fixed;
+	color: white;
+	background-color: #1992d4;
+
+	/* border: 1px solid red; */
+}
+
+.sidebar > h1 {
+	padding-left: 3rem;
+}
+
+nav {
+	display: flex;
+	flex-direction: column;
+	padding-left: 3rem;
 }
