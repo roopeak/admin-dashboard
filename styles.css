@@ -4,9 +4,9 @@ body {
 }
 
 .sidebar {
-	height: 100%;
+	height: 100vh;
 	width: 250px;
-	position: fixed;
+	float: left;
 	color: white;
 	background-color: #1992d4;
 
@@ -21,4 +21,62 @@ nav {
 	display: flex;
 	flex-direction: column;
 	padding-left: 3rem;
+}
+
+header {
+	height: 200px;
+
+	border: 1px solid red;
+}
+
+.main-content {
+	display: grid;
+	grid-template-columns: 900px 300px;
+	grid-template-rows: 1050px;
+	gap: 32px;
+
+
+	border: 1px solid red;
+}
+
+.projects-div {
+	display: grid;
+	grid-template-columns: 400px 400px;
+	gap: 30px;
+
+	border: 1px solid red;
+}
+
+.projects-div > * {
+	border: 1px solid red;
+}
+
+.announcements-and-trending {
+	display: grid;
+	grid-template-columns: 350px;
+	grid-template-rows: 350px;
+}
+
+.announcements-div {
+	display: grid;
+	grid-template-columns: 300px;
+	grid-template-rows: 80px 80px 80px;
+
+	border: 1px solid red;
+}
+
+.announcements-div > * {
+	border: 1px solid red;
+}
+
+.trending-div {
+	display: grid;
+	grid-template-columns: 300px;
+	grid-template-rows: 100px 100px 100px 100px;
+
+	border: 1px solid red;
+}
+
+.trending-div > * {
+	border: 1px solid red;
 }
