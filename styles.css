@@ -4,6 +4,8 @@ body {
 }
 
 .sidebar {
+	display: grid;
+	grid-template-rows: 100px 150px 150px;
 	height: 100vh;
 	width: 250px;
 	float: left;
@@ -11,6 +13,11 @@ body {
 	background-color: #1992d4;
 
 	/* border: 1px solid red; */
+}
+
+.sidebar > * {
+	display: grid;
+	grid-template-rows: 20px 20px 20px 20px 20px 60px;
 }
 
 .sidebar > h1 {
