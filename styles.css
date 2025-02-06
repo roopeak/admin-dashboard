@@ -63,6 +63,7 @@ nav {
 
 header {
 	display: grid;
+	grid-template-rows: 80px 100px;
 	height: 200px;
 
 	border: 1px solid red;
@@ -70,36 +71,86 @@ header {
 
 .header-top {
 	display: grid;
-	grid-template-columns: 10px 500px 10px 10px 10px 150px;
-  grid-template-rows: 20px;
-	gap: 100px;
+	grid-template-columns: 500px 600px;
+	padding: 20px;
+	align-items: center;
+}
+
+.header-top-left-grid {
+	display: grid;
+	grid-template-columns: 50px 400px;
+	grid-template-rows: 20px;
+	align-items: center;
+	margin-left: 100px;
+}
+
+.header-top-right-grid {
+	display: grid;
+	grid-template-columns: 50px 70px 200px;
+	margin-left: 400px;
+	align-items: center;
+}
+
+.users-name {
+	width: 130px;
+}
+
+.search {
+	height: 35px;
+	border: none;
+	border-radius: 20px;
+	background-color: #e2e8f0;
+}
+
+.batman-header-top {
+	width: 50px;
+	height: 50px;
 }
 
 .header-bottom {
 	display: grid;
 	grid-template-columns: 900px 500px;
-	grid-template-rows: 70px;
+	grid-template-rows: 100px;
+	align-items: center;
+	margin-top: 10px;
+	margin-left: 50px;
+}
+
+.batman-header-bottom {
+	width: 80px;
+	height: 80px;
 }
 
 .user-greeting {
 	display: grid;
-	grid-template-columns: 50px 200px;
+	grid-template-columns: 100px 200px;
 	grid-template-rows: 50px 50px;
+}
+
+#hi-there {
+	font-weight: bold;
+}
+
+#user-greeting-name {
+	font-weight: bold;
+	font-size: 25px;
+	width: 300px;
+	border: 1px solid red;
 }
 
 .header-buttons {
 	display: grid;
 	grid-template-columns: 100px 100px 100px;
 	grid-template-rows: 50px;
+	gap: 20px;
 }
 
-.header-bottom > * {
-	border: 1px solid red;
+.header-buttons > button {
+	border: none;
+	border-radius: 30px;
+	color: white;
+	background-color: #1992d4;
 }
-
-/* header > * {
-	border: 1px solid red;
-} */
 
 .main-content {
 	display: grid;
