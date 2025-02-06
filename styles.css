@@ -1,6 +1,7 @@
 body {
 	margin: 0;
 	padding: 0;
+	font-family: Roboto;
 }
 
 .sidebar {
@@ -15,14 +16,19 @@ body {
 	/* border: 1px solid red; */
 }
 
+.sidebar > h1 {
+	display: grid;
+	grid-template-columns: 20px 20px;
+}
+
 .sidebar-links > a {
 	display: grid;
 	grid-template-columns: 20px 100px;
 	gap: 20px;
-	font-size: 25px;
+	font-size: 22px;
 	color: white;
 	text-decoration: none;
-	font-weight: bold;
+	font-weight: bolder;
 }
 
 .sidebar-links > a > img {
@@ -30,14 +36,23 @@ body {
 	width: 30px;
 }
 
+.sidebar-links > a {
+	display: flex;
+	align-items: center;
+}
+
 .sidebar > * {
 	display: grid;
-	grid-template-rows: 20px 20px 20px 20px 20px 60px;
+	grid-template-rows: 35px 35px 35px 35px 35px 35px;
 	gap: 20px;
 }
 
 .sidebar > h1 {
 	padding-left: 2rem;
+}
+
+.settings-link {
+	padding-top: 60px;
 }
 
 nav {
@@ -104,6 +119,11 @@ header {
 	border: 1px solid red;
 }
 
+.projects-div > h2 >img {
+	width: 25px;
+	height: 25px;
+}
+
 .projects-div > * {
 	border: 1px solid red;
 }
@@ -132,6 +152,11 @@ header {
 	grid-template-rows: 100px 100px 100px 100px;
 
 	border: 1px solid red;
+}
+
+.trending-div > div > img {
+	width: 60px;
+	height: 60px;
 }
 
 .trending-div > * {
