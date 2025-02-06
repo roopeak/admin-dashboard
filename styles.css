@@ -117,14 +117,19 @@ header {
 }
 
 .batman-header-bottom {
-	width: 80px;
-	height: 80px;
+	width: 90;
+	height: 90px;
 }
 
 .user-greeting {
 	display: grid;
 	grid-template-columns: 100px 200px;
 	grid-template-rows: 50px 50px;
+}
+
+.user-greeting-text {
+	display: grid;
+	grid-template-rows: 20px 20px;
 }
 
 #hi-there {
@@ -135,7 +140,6 @@ header {
 	font-weight: bold;
 	font-size: 25px;
 	width: 300px;
-	border: 1px solid red;
 }
 
 .header-buttons {
@@ -157,7 +161,6 @@ header {
 	grid-template-columns: 900px 300px;
 	grid-template-rows: 1050px;
 	gap: 32px;
-
 
 	border: 1px solid red;
 }
