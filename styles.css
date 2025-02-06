@@ -158,41 +158,41 @@ header {
 
 .main-content {
 	display: grid;
-	grid-template-columns: 900px 300px;
-	grid-template-rows: 1050px;
-	gap: 32px;
+	grid-template-columns: 50px 900px 400px;
+	background-color: #e2e8f0;
+	height: 100vh;
+}
 
-	border: 1px solid red;
+.main-content > h3 {
+	width: 200px;
+	margin-left: 50px;
 }
 
 .projects-div {
 	display: grid;
-	grid-template-columns: 400px 400px;
+	grid-template-columns: 300px 300px;
+	grid-template-rows: 250px 250px 250px;
 	gap: 30px;
-
+	margin-top: 50px;
 	border: 1px solid red;
 }
 
-.projects-div > h2 >img {
+.projects-div > div >img {
 	width: 25px;
 	height: 25px;
 }
 
-.projects-div > * {
+.projects-div > div {
 	border: 1px solid red;
 }
 
 .announcements-and-trending {
 	display: grid;
 	grid-template-columns: 350px;
-	grid-template-rows: 350px;
+	grid-template-rows: 50px 450px 400px;
 }
 
 .announcements-div {
-	display: grid;
-	grid-template-columns: 300px;
-	grid-template-rows: 80px 80px 80px;
-
 	border: 1px solid red;
 }
 
@@ -203,7 +203,8 @@ header {
 .trending-div {
 	display: grid;
 	grid-template-columns: 300px;
-	grid-template-rows: 100px 100px 100px 100px;
+	grid-template-rows: 50px 80px 80px 80px 80px;
+	justify-content: center;
 
 	border: 1px solid red;
 }
@@ -213,6 +214,16 @@ header {
 	height: 60px;
 }
 
-.trending-div > * {
-	border: 1px solid red;
+.user1,
+.user2,
+.user3,
+.user4 {
+	display: grid;
+	grid-template-columns: 80px 100px;
+}
+
+.trending-user-text {
+	display: grid;
+	grid-template-columns: 200px;
+	grid-template-rows: 20px 20px;
 }
