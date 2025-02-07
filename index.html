@@ -4,9 +4,191 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="styles.css" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" />
 	<title>Admin dashboard</title>
 </head>
 <body>
-	<h1>Dashboard</h1>
+	<aside class="sidebar">
+		<h1><img src="./svg/icons/dashboard.svg" alt="Dashboard icon">Dashboard</h1>
+		<nav class="sidebar-links">
+			<a href="www.admindashboard.com"><img src="./svg/icons/home.svg" alt="House icon">Home</a>
+			<a href="www.admindashboard.com/profile"><img src="./svg/icons/person.svg" alt="Profile icon">Profile</a>
+			<a href="www.admindashboard.com/messages"><img src="./svg/icons/message.svg" alt="Envelope icon">Messages</a>
+			<a href="www.admindashboard.com/history"><img src="./svg/icons/clock.svg" alt="Clock icon">History</a>
+			<a href="www.admindashboard.com/tasks"><img src="./svg/icons/task.svg" alt="Notes icon">Tasks</a>
+			<a href="www.admindashboard.com/communities"><img src="./svg/icons/groups.svg" alt="Group icon">Communities</a>
+			<a href="www.admindashboard.com/settings" class="settings-link"><img src="./svg/icons/settings.svg" alt="Settings icon">Settings</a>
+			<a href="www.admindashboard.com/support"><img src="./svg/icons/help.svg" alt="Help icon">Support</a>
+			<a href="www.admindashboard.com/privacy"><img src="./svg/icons/shield.svg" alt="Shield icon">Privacy</a>
+		</nav>
+	</aside>
+	<main>
+		<header>
+			<div class="header-top">
+				<div class="header-top-left-grid">
+					<img src="./svg/icons/search.svg" alt="Search icon">
+					<input type="text" class="search">
+				</div>
+				<div class="header-top-right-grid">
+					<img src="./svg/icons/bell.svg" alt="Bell icon">
+					<img src="./svg/batman.svg" alt="An icon of Batman" class="batman-header-top">
+					<p class="users-name">Morgan Oakley</p>
+				</div>
+			</div>
+			<div class="header-bottom">
+				<div class="user-greeting">
+					<div class="user-greeting-icon">
+						<img src="./svg/batman.svg" alt="An icon of Batman" class="batman-header-bottom">
+					</div>
+					<div class="user-greeting-text">
+						<p id="hi-there">Hi there,</p> 
+						<p id="user-greeting-name">Morgan Oakley (@morgan)</p>
+					</div>
+				</div>
+				<div class="header-buttons">
+					<button class="new-btn">New</button>
+					<button class="upload-btn">Upload</button>
+					<button class="share-btn">Share</button>
+				</div>
+			</div>
+		</header>
+		<div class="main-content">
+			<h2>Your Projects</h2>
+			<div class="projects-div">
+				<div class="project1">
+					<h3>Super Cool Project</h3>
+					<p class="project-card-info">
+						Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh
+						erat, id facilisis felis accumsan nec.
+					</p>
+					<div class="project-card-icons">
+						<img src="./svg/icons/star-plus.svg">
+						<img src="./svg/icons/eye-plus.svg">
+						<img src="./svg/icons/share.svg">
+					</div>
+				</div>
+				<div class="project2">
+					<h3>Less Cool Project</h3>
+					<p class="project-card-info">
+						Nullam condimemtum ipsum ut lectus vehicula cinsectetur. Quisque
+						sed dolor tincidunt, consectetur sapien et, facilisis dolor. Duis
+						sem purus, dignissim ut sapien in, varius pellentesque lacus.
+					</p>
+					<div class="project-card-icons">
+						<img src="./svg/icons/star-plus.svg">
+						<img src="./svg/icons/eye-plus.svg">
+						<img src="./svg/icons/share.svg">
+					</div>
+				</div>
+				<div class="project3">
+					<h3>Impossible App</h3>
+					<p class="project-card-info">
+						In hac habitasse platea dictumst. Vivamus dictum rutrum
+						arcu, aplacerat velit sagittis id.
+					</p>
+					<div class="project-card-icons">
+						<img src="./svg/icons/star-plus.svg">
+						<img src="./svg/icons/eye-plus.svg">
+						<img src="./svg/icons/share.svg">
+					</div>
+				</div>
+				<div class="project4">
+					<h3>Easy Peasy App</h3>
+					<p class="project-card-info">
+						Etiam cursus eros ac efficitur fringilla. Vestibulum
+						dignissim urna eget accumsan aliquam. Curabitur dignissim
+						nisi in tortor commodo, ac bibendum magna tincidunt
+					</p>
+					<div class="project-card-icons">
+						<img src="./svg/icons/star-plus.svg">
+						<img src="./svg/icons/eye-plus.svg">
+						<img src="./svg/icons/share.svg">
+					</div>
+				</div>
+				<div class="project5">
+					<h3>Ad Blocker</h3>
+					<p class="project-card-info">
+						Quisque eget rutrum nisl. Nam augue justo, cursus vitae metus
+						vel, pharetra hendrerit felis. Aliquam sed malesuada eros.
+					</p>
+					<div class="project-card-icons">
+						<img src="./svg/icons/star-plus.svg">
+						<img src="./svg/icons/eye-plus.svg">
+						<img src="./svg/icons/share.svg">
+					</div>
+				</div>
+				<div class="project6">
+					<h3>Money Maker</h3>
+					<p class="project-card-info">
+						Praesent convalillis, libero quis congue elementum, nunc ante
+						faucibus sapien, ac scelerisque tortor purus sit amet ex.
+						Pellentesque mollis nec sem vel aliquam.
+					</p>
+					<div class="project-card-icons">
+						<img src="./svg/icons/star-plus.svg">
+						<img src="./svg/icons/eye-plus.svg">
+						<img src="./svg/icons/share.svg">
+					</div>
+				</div>
+			</div>
+			<div class="announcements-and-trending">
+				<h2>Announcements</h2>
+				<div class="announcements-div">
+					<div class="announcement1">
+						<h4 class="announcement-header1">Site Maintenance</h4>
+						<p>
+							Vestibulum condimentum tellus lacus, in accumsan elit maximus
+							ac. Donec hendrerit sodales congue...
+						</p>
+					</div>
+					<div class="announcement2">
+						<h4 class="announcement-header2">Community Share Day</h4>
+						<p>
+							Nam vel lectus tincidunt, rutrum nulla eu, ornare libero.
+							Aliquam dictum accumsan porttitor...
+						</p>
+					</div>
+					<div class="announcement3">		
+						<h4 class="announcement-header3">Updated Privacy Policy</h4>
+						<p>
+							Phasellus efficitur nisi eget elit consectetur, eget condimentum
+							ante auctor. Cras fringilla sagittis sem in mattis...
+						</p>
+					</div>
+				</div>
+				<h2 class="header-trending">Trending</h2>
+				<div class="trending-div">
+					<div class="user1">
+						<img src="./svg/alien.svg" alt="Alien icon">
+						<div class="trending-user-text">
+							<p>@tegan</p>
+							<p>World Peace Builder</p>
+						</div>
+					</div>
+					<div class="user2">
+						<img src="./svg/batman.svg" alt="Batman icon">
+						<div class="trending-user-text">
+							<p>@morgan</p>
+							<p>Super Cool Project</p>
+						</div>
+					</div>
+					<div class="user3">
+						<img src="./svg/ninja.svg" alt="Ninja icon">
+						<div class="trending-user-text">
+							<p>@kendall</p>
+							<p>Life Changing App</p>
+						</div>
+					</div>
+					<div class="user4">
+						<img src="./svg/rocket.svg" alt="Rocket icon">
+						<div class="trending-user-text">
+							<p>@alex</p>
+							<p>No Traffic Maker</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
 </body>
 </html>
