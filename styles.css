@@ -8,8 +8,9 @@ body {
 .sidebar {
 	display: grid;
 	grid-template-rows: 100px 150px 150px;
-	height: 100vh;
+	height: 100%;
 	width: 380px;
+	position: fixed;
 	float: left;
 	color: white;
 	background-color: #1992d4;
@@ -267,4 +268,8 @@ header {
 	grid-template-columns: 200px;
 	grid-template-rows: 20px 20px;
 	align-items: center;
+}
+
+main {
+	margin-left: 380px;
 }
