@@ -1,2 +1,2 @@
 # admin-dashboard
-This is the seventh project of The Odin Project containing some basic HTML and CSS.
+An imaginary admin dashboard for CSS grid practice.
